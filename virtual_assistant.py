@@ -25,9 +25,10 @@ conversation_override = {
 }
 
 config = ConversationConfig(
-    conversation_config_override = conversation_override,
-    extra_body = {},
-    dynamic_variables = {},
+    conversation_config_override=conversation_override,
+    extra_body={},
+    dynamic_variables={},
+    user_id=None
 )
 
 client = ElevenLabs(api_key=API_KEY)
